@@ -6,7 +6,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: '/.js$/',
+        test: /\.js$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -14,10 +14,6 @@ module.exports = {
             presets: ['@babel/preset-env'],
           },
         },
-      },
-      {
-        test: '/.(scss|css)$/',
-        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
         test: '/.html$/',
@@ -29,25 +25,20 @@ module.exports = {
         ],
       },
       {
-        test: '/.(png|jpeg|jpg|gif|svg)$/i',
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
+        test: /\.s?css$/,
+        exclude: /node_modules/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
     ],
   },
   plugins: [
     new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       title: 'Frontend Boilerplate',
       template: './public/index.html',
       filename: './index.html',
     }),
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[id].css',
-    }),
   ],
+  devtool: 'source-map',
 };

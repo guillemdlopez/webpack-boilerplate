@@ -26,9 +26,9 @@ It includes the following stack:
 |   |  |
 |   |  |-- images
 |   |  |
-|   |  |__ stylesheets
+|   |  |__ styles
 |   |     |
-|   |     |__ main.css
+|   |     |__ index.css
 |   |
 |   |__ functions
 |
