@@ -27,7 +27,7 @@ module.exports = {
       {
         test: /\.s?css$/,
         exclude: /node_modules/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
     ],
   },
@@ -41,4 +41,7 @@ module.exports = {
     }),
   ],
   devtool: 'source-map',
+  devServer: {
+    hot: true,
+  },
 };

@@ -1,7 +1,6 @@
 'use strict';
 
-// Hot reloading
-import './assets/styles/index.css';
+import './assets/styles/index.scss';
 
 import { initCounter } from './functions/counter';
 import greeting from './functions/greeting';
