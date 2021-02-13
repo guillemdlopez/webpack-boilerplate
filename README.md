@@ -1,8 +1,8 @@
-# Frontend Boilerplate 🎨👩🏽‍🎨👨🏾‍🎨
+# Frontend Boilerplate 🎨 👩🏽‍🎨 👨🏾‍🎨
 
 > Frontend Boilerplate to start running any Frontend project.
 
-## Stack 🧑🏽‍💻
+## Tooling 🧑🏽‍💻
 
 It includes the following stack:
 
@@ -28,7 +28,7 @@ It includes the following stack:
 |   |  |
 |   |  |__ styles
 |   |     |
-|   |     |__ index.css
+|   |     |__ index.scss
 |   |
 |   |__ functions
 |
@@ -47,7 +47,7 @@ It includes the following stack:
 |-- webpack.config.js
 ```
 
-Hi!🙋🏽‍♂️ My name is Guillem and I am a Fullstack Developer based in Barcelona. Please make sure to check out my [Portfolio](https://guillemdlopez.github.io/portfolio).
+Hi!🙋🏽‍♂️ My name is [Guillem Delás](http://linkedin.com/in/guillemdelas) and I am a Fullstack Developer based in Barcelona. Please make sure to check out my [Portfolio](https://guillemdlopez.github.io/portfolio).
 
 You can also check out some **Projects** that I made or I am currently working on:
 
