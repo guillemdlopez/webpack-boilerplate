@@ -1,9 +1,8 @@
-const p = document.createElement('p');
-root.appendChild(p);
-
 const initCounter = () => {
+  const p = document.createElement('p');
+  root.appendChild(p);
+
   const tick = function () {
-    p.textContent = '';
     p.textContent = `${time}`;
 
     if (time === 0) {

@@ -8,7 +8,7 @@ It includes the following stack:
 
 - **Webpack**
 - **Babel**
-- **ESLint** (with _Prettier_ extension): ESLint is only reserved for quality-code issues, while Prettier is in charge of the style and formatting of the code.
+- **ESLint** (with _Prettier_ extension): ESLint is only reserved for quality-code purposes, while Prettier is in charge of the style and the formatting of the code.
 
 ## Folder tree 🗂
 

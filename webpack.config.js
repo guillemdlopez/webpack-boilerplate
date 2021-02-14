@@ -16,6 +16,14 @@ module.exports = {
         },
       },
       {
+        test: /\.(png|jpg|jpeg|svg|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+      {
         test: '/.html$/',
         use: [
           {
