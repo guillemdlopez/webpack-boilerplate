@@ -1,0 +1,14 @@
+@import './components/index.scss';
+@import './variables';
+
+body {
+  background-color: $bg;
+  margin: 0px;
+  font-family: var(--font-family);
+  margin-bottom: 40px;
+}
+
+.container {
+  width: $container;
+  margin: 0 auto;
+}

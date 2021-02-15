@@ -1,4 +1,4 @@
-const initCounter = () => {
+export const initTimer = () => {
   const p = document.createElement('p');
   root.appendChild(p);
 
@@ -18,5 +18,3 @@ const initCounter = () => {
   const timer = setInterval(tick, 1000);
   return timer;
 };
-
-export { initCounter };
