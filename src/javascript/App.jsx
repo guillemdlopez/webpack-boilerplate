@@ -5,15 +5,8 @@ const App = () => {
     <div>
       <h1 style={{ textAlign: 'center' }}>Hello World!</h1>
       <div id="smiley">
-        <img src={smiley} id="smiley-img" />
+        <img src={smiley} id="smiley-img" alt="smiley" />
       </div>
-      <ul className="main-list">
-        <li>Hi</li>
-        <li>My</li>
-        <li>Name</li>
-        <li>hola</li>
-        <li>Guillem</li>
-      </ul>
     </div>
   );
 };
