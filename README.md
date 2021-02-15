@@ -7,6 +7,7 @@
 - [Scripts](#scripts)
 - [Folder Tree 🗂](#folder-tree)
 - [Let's Start ▶️](#start)
+- [About Me](#about-me)
 
 ## Tooling
 
@@ -40,6 +41,8 @@ To build the app
 ```bash
 npm run build
 ```
+
+🚧 🚧 _Currently working on the test script_ 🚧 🚧
 
 ## Folder tree
 
@@ -87,6 +90,10 @@ npm install
 code . # Open on Visual Studio Code
 stt # Open on Sublime Text
 ```
+
+## About me
+
+---
 
 Hi!🙋🏽‍♂️ My name is [Guillem Delás](http://linkedin.com/in/guillemdelas) and I am a Fullstack Developer based in Barcelona. Please make sure to check out my [Portfolio](https://guillemdlopez.github.io/portfolio).
 

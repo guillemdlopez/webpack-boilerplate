@@ -1,18 +1,22 @@
 export const initTimer = () => {
   const p = document.createElement('p');
-  root.appendChild(p);
+  const div = document.querySelector('.time-label');
+  div.appendChild(p);
 
   const tick = function () {
-    p.textContent = `${time}`;
+    const min = String(Math.trunc(time / 60)).padStart(2, 0);
+    const seg = String(time % 60).padStart(2, 0);
 
-    if (time === 0) {
-      p.textContent = 'One minute of your life is gone!';
+    p.textContent = `${min}:${seg}`;
+
+    if (time === 300) {
+      p.textContent = '5 minutes of your life are gone!';
       clearInterval(timer);
     }
 
-    time--;
+    time++;
   };
-  let time = 60;
+  let time = 0;
   tick();
 
   const timer = setInterval(tick, 1000);
