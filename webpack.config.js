@@ -48,7 +48,7 @@ module.exports = {
       },
     ],
   },
-  plugins: plugins,
+  plugins,
   devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.jsx'],

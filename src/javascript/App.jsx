@@ -1,4 +1,3 @@
-import React from 'react';
 import smiley from '../style/images/smiley.png';
 
 const App = () => {
@@ -12,8 +11,8 @@ const App = () => {
         <li>Hi</li>
         <li>My</li>
         <li>Name</li>
-        <li>Is</li>
-        <li>Guillem!!</li>
+        <li>hola</li>
+        <li>Guillem</li>
       </ul>
     </div>
   );
