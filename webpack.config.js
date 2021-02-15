@@ -4,6 +4,15 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
+const plugins = [
+  new CleanWebpackPlugin(),
+  new MiniCssExtractPlugin(),
+  new HtmlWebpackPlugin({
+    title: 'Frontend Boilerplate',
+    template: './public/index.html',
+  }),
+];
+
 if (process.env.NODE_ENV === 'development') {
   plugins.push(new ReactRefreshWebpackPlugin());
 }
@@ -39,14 +48,7 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new CleanWebpackPlugin(),
-    new MiniCssExtractPlugin(),
-    new HtmlWebpackPlugin({
-      title: 'Frontend Boilerplate',
-      template: './public/index.html',
-    }),
-  ],
+  plugins: plugins,
   devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.jsx'],

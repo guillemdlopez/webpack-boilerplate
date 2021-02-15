@@ -1,5 +1,7 @@
+const plugins = ['@babel/plugin-syntax-jsx'];
+
 if (process.env.NODE_ENV === 'development') {
-  plugins.plus('react-refresh-babel');
+  plugins.push('react-refresh/babel');
 }
 module.exports = {
   presets: [
@@ -8,5 +10,5 @@ module.exports = {
     // in files only using JSX (no state or React methods)
     ['@babel/preset-react', { runtime: 'automatic' }],
   ],
-  plugins: ['@babel/plugin-syntax-jsx'],
+  plugins: plugins,
 };

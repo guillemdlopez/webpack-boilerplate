@@ -2,49 +2,90 @@
 
 > Frontend Boilerplate to start running any Frontend project.
 
-## Tooling 🧑🏽‍💻
+- [Tooling 🧑🏽‍💻](#tooling)
+- [Frameworks](#frameworks)
+- [Scripts](#scripts)
+- [Folder Tree 🗂](#folder-tree)
+- [Let's Start ▶️](#start)
+
+## Tooling
+
+---
 
 It includes the following stack:
 
-- **Webpack**
-- **Babel**
-- **ESLint** (with _Prettier_ extension): ESLint is only reserved for quality-code purposes, while Prettier is in charge of the style and the formatting of the code.
+- **Webpack 5**: with .js and .jsx file extensions.
+- **Babel**: with react presets and es2015.
+- **ESLint** (with _Prettier_ extension): ESLint is only reserved for quality-code purposes, while Prettier is in charge of the style and the formatting of the code.👌🏽✨
+- Enabled Hot reloading ✅
 
-## Folder tree 🗂
+## Frameworks
+
+---
+
+This boilerplate includes **React** ⚛️
+
+## Scripts
+
+---
+
+To start the local Web Dev Server (usually on port `8080`)
+
+```bash
+npm start
+```
+
+To build the app
+
+```bash
+npm run build
+```
+
+## Folder tree
+
+---
 
 ```
 .
 |
-|
 |--- public
-|   |
 |   |___ index.html
 |
 |--- src
+|   |-- javascript
+|   |   |__ App.jsx
 |   |
-|   |-- assets
-|   |  |
+|   |-- style
 |   |  |-- images
-|   |  |
-|   |  |__ styles
+|   |  |__ stylesheets
 |   |     |
+|   |     |-- components
+|   |     |   |__ index.scss
+|   |     |-- _variables.scss
 |   |     |__ index.scss
 |   |
-|   |__ functions
+|   |__ index.js
 |
 |-- .eslintrc.json
-|
 |-- .gitignore
-|
 |-- .pretierrc
-|
-|--- package-lock.json
-|
+|-- package-lock.json
 |-- package.json
-|
 |-- README.md
-|
-|-- webpack.config.js
+|__ webpack.config.js
+```
+
+## Start
+
+---
+
+```bash
+git clone git@github.com:guillemdlopez/frontend-boilerplate.git project-name
+cd project-name
+rm -rf .git
+npm install
+code . # Open on Visual Studio Code
+stt # Open on Sublime Text
 ```
 
 Hi!🙋🏽‍♂️ My name is [Guillem Delás](http://linkedin.com/in/guillemdelas) and I am a Fullstack Developer based in Barcelona. Please make sure to check out my [Portfolio](https://guillemdlopez.github.io/portfolio).
