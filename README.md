@@ -83,7 +83,7 @@ npm run build
 ---
 
 ```bash
-git clone git@github.com:guillemdlopez/frontend-boilerplate.git project-name
+git clone git@github.com:guillemdlopez/webpack-boilerplate.git project-name
 cd project-name
 rm -rf .git
 npm install
