@@ -11,8 +11,6 @@
 
 ## Tooling
 
----
-
 It includes the following stack:
 
 - **Webpack 5**: with .js and .jsx file extensions.
@@ -22,13 +20,9 @@ It includes the following stack:
 
 ## Frameworks
 
----
-
 This boilerplate includes **React** ⚛️
 
 ## Scripts
-
----
 
 To start the local Web Dev Server (usually on port `8080`)
 
@@ -45,8 +39,6 @@ npm run build
 🚧 🚧 _Currently working on the test script_ 🚧 🚧
 
 ## Folder tree
-
----
 
 ```
 .
@@ -80,8 +72,6 @@ npm run build
 
 ## Start
 
----
-
 ```bash
 git clone git@github.com:guillemdlopez/webpack-boilerplate.git project-name
 cd project-name
@@ -92,8 +82,6 @@ stt # Open on Sublime Text
 ```
 
 ## About me
-
----
 
 Hi!🙋🏽‍♂️ My name is [Guillem Delás](http://linkedin.com/in/guillemdelas) and I am a Fullstack Developer based in Barcelona. Please make sure to check out my [Portfolio](https://guillemdlopez.github.io/portfolio).
 
