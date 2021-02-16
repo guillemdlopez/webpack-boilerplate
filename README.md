@@ -72,12 +72,23 @@ npm run build
 
 ## Start
 
+### Open on VS Code
+
 ```bash
 git clone git@github.com:guillemdlopez/webpack-boilerplate.git frontend-project
 cd frontend-project
 rm -rf .git
 npm install
 code . # Open on Visual Studio Code
+```
+
+### Open on Sublime Text
+
+```bash
+git clone git@github.com:guillemdlopez/webpack-boilerplate.git frontend-project
+cd frontend-project
+rm -rf .git
+npm install
 stt # Open on Sublime Text
 ```
 
