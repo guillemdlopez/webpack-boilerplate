@@ -1,6 +1,6 @@
 const { shallow } = require('enzyme');
 const { default: App } = require('../javascript/App');
-import '../setupTests';
+// import '../setupTests.mjs';
 
 describe('Pruebas en App', () => {
   test('debe mostrarse correctamente', () => {

@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "test": "jest --watchAll",
-    "lint": "eslint './src/javascript/*.js*'",
-    "deploy": "gh-pages -d build"
+    "lint": "eslint './src/javascript/*.js*'"
   },
   "author": "Guillem Delás",
   "license": "ISC",
@@ -28,6 +28,7 @@
     "enzyme-to-json": "^3.6.1",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-react": "^7.22.0",
     "file-loader": "^6.2.0",
     "gh-pages": "^3.1.0",
     "html-loader": "^1.3.2",

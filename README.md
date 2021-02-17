@@ -42,7 +42,7 @@ To run the tests
 npm run test
 ```
 
-To check out for code-quality
+To check out for quality-code
 
 ```bash
 npm run lint
