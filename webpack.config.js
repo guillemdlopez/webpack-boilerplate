@@ -8,7 +8,6 @@ const plugins = [
   new CleanWebpackPlugin(),
   new MiniCssExtractPlugin(),
   new HtmlWebpackPlugin({
-    title: 'Frontend Boilerplate',
     template: './public/index.html',
   }),
 ];

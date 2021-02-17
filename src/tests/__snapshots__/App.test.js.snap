@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en App debe mostrarse correctamente 1`] = `
+<div
+  className="container"
+>
+  <h1
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Hello World!
+  </h1>
+  <div
+    id="smiley"
+  />
+  <div
+    className="time-label"
+  />
+</div>
+`;

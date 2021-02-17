@@ -36,6 +36,18 @@ To build the app
 npm run build
 ```
 
+To run the tests
+
+```bash
+npm run test
+```
+
+To check out for code-quality
+
+```bash
+npm run lint
+```
+
 🚧 🚧 _Currently working on the test script_ 🚧 🚧
 
 ## Folder tree
