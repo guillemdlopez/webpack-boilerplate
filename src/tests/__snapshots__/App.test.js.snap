@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en App debe mostrarse correctamente 1`] = `
+exports[`Testing the <App /> component should render correctly 1`] = `
 <div
   className="container"
 >
