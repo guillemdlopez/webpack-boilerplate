@@ -15,7 +15,13 @@ exports[`Pruebas en App debe mostrarse correctamente 1`] = `
   </h1>
   <div
     id="smiley"
-  />
+  >
+    <img
+      alt="smiley"
+      id="smiley-img"
+      src={null}
+    />
+  </div>
   <div
     className="time-label"
   />
