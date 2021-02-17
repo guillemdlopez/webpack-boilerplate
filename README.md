@@ -48,7 +48,7 @@ To check out for code-quality
 npm run lint
 ```
 
-🚧 🚧 _Currently working on the test script_ 🚧 🚧
+🚧 🚧 _Currently working on the test and lint scripts_ 🚧 🚧
 
 ## Folder tree
 
