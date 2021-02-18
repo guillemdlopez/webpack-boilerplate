@@ -15,6 +15,7 @@
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "test": "jest --watchAll",
+    "test:coverage": "jest --coverage",
     "lint": "eslint './src/javascript/*.js*'",
     "deploy": "gh-pages -d build"
   },
