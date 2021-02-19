@@ -6,7 +6,10 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = {
   presets: [
-    ['@babel/preset-env', { debug: true, useBuiltIns: 'usage', corejs: '3.9' }],
+    [
+      '@babel/preset-env',
+      { debug: true, useBuiltIns: 'usage', corejs: '3.9', targets: 'defaults' },
+    ],
     ['@babel/preset-react', { runtime: 'automatic' }],
   ],
   plugins,
