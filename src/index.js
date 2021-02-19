@@ -22,5 +22,3 @@ const callingPromise = async function () {
 };
 
 callingPromise();
-
-console.log('Hi!!!!');
