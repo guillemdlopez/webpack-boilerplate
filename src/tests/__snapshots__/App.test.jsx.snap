@@ -22,8 +22,5 @@ exports[`Testing the <App /> component should render correctly 1`] = `
       src={null}
     />
   </div>
-  <div
-    className="time-label"
-  />
 </div>
 `;
