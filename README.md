@@ -1,6 +1,6 @@
 # Frontend Boilerplate 🎨 👩🏽‍🎨 👨🏾‍🎨
 
-> Frontend Boilerplate to start running any Frontend project.
+> Frontend Boilerplate to start running a Frontend project.
 
 - [Tooling 🧑🏽‍💻](#tooling)
 - [Frameworks](#frameworks)
