@@ -63,7 +63,7 @@ To check out for quality-code 👌🏽
 npm run lint
 ```
 
-🚧 🚧 _Currently working on the lint and deploy scripts_ 🚧 🚧
+🚧 🚧 _Currently working on the deploy script_ 🚧 🚧
 
 ## Folder tree
 

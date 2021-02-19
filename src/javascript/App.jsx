@@ -1,4 +1,5 @@
 import smiley from '../style/images/smiley.png';
+import React from 'react';
 
 const App = () => {
   return (
