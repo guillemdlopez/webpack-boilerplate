@@ -24,37 +24,37 @@ This boilerplate includes **React** ⚛️
 
 ## Scripts
 
-To start the local Web Dev Server (usually on port `8080`)
+To start the local Web Dev Server (usually on port `8080`) ▶️
 
 ```bash
 npm start
 ```
 
-To build the app
+To build the app 👷🏽🚧
 
 ```bash
 npm run build
 ```
 
-To run the tests
+To run the tests 🧐
 
 ```bash
 npm run test
 ```
 
-To check the coverage of your test suites.
+To check the coverage of your test suites. ✅
 
 ```bash
 npm run test-coverage
 ```
 
-To delete the dist and coverage folders
+To delete the dist and coverage folders 🧼
 
 ```bash
 npm run clean
 ```
 
-To check out for quality-code
+To check out for quality-code 👌🏽
 
 ```bash
 npm run lint
