@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "“http://{username}.github.io/{repo-name}",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
@@ -10,7 +11,7 @@
     "test-coverage": "jest --coverage",
     "clean": "rm -rf coverage dist",
     "lint": "eslint './src/**/*.js*'",
-    "deploy": "gh-pages -d build"
+    "deploy": "webpack && gh-pages -d dist"
   },
   "author": "Guillem Delás",
   "license": "ISC",
