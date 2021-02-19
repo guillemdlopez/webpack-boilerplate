@@ -13,9 +13,8 @@
   },
   "scripts": {
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production",
+    "build": "NODE_ENV=production webpack",
     "test": "jest --watchAll",
-    "test:coverage": "jest --coverage",
     "lint": "eslint './src/javascript/*.js*'",
     "deploy": "gh-pages -d build"
   },
@@ -23,7 +22,6 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.16",
-    "@babel/plugin-syntax-jsx": "^7.12.13",
     "@babel/preset-env": "^7.12.16",
     "@babel/preset-react": "^7.12.13",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",

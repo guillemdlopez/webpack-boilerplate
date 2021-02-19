@@ -12,7 +12,7 @@ const plugins = [
   }),
 ];
 
-if (process.env.NODE_ENV === 'development') {
+if (process.env.NODE_ENV !== 'production') {
   plugins.push(new ReactRefreshWebpackPlugin());
 }
 
@@ -50,10 +50,10 @@ module.exports = {
   },
   plugins,
   devtool: 'source-map',
-  resolve: {
-    extensions: ['.js', '.jsx'],
-  },
   devServer: {
     hot: true,
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
 };
