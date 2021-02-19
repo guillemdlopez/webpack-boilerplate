@@ -45,7 +45,7 @@ To run the tests 🧐
 npm run test
 ```
 
-To check the coverage of your test suites. ✅
+To check the coverage of your test suites. 💯
 
 ```bash
 npm run test-coverage
