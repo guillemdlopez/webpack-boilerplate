@@ -7,7 +7,6 @@ const App = () => {
       <div id="smiley">
         <img src={smiley} id="smiley-img" alt="smiley" />
       </div>
-      <div className="time-label"></div>
     </div>
   );
 };
