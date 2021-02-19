@@ -63,7 +63,11 @@ To check out for quality-code 👌🏽
 npm run lint
 ```
 
-🚧 🚧 _Currently working on the deploy script_ 🚧 🚧
+To deploy to github-pages (first change the `homepage` property of the `package.json` file)
+
+```bash
+npm run deploy
+```
 
 ## Folder tree
 
