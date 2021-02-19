@@ -42,6 +42,18 @@ To run the tests
 npm run test
 ```
 
+To check the coverage of your test suites.
+
+```bash
+npm run test-coverage
+```
+
+To delete the dist and coverage folders
+
+```bash
+npm run clean
+```
+
 To check out for quality-code
 
 ```bash
