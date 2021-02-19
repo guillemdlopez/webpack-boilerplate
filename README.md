@@ -18,6 +18,8 @@ It includes the following stack:
 - **ESLint** (with _Prettier_ extension): ESLint is only reserved for quality-code purposes, while Prettier is in charge of the style and the formatting of the code.👌🏽✨
 - Enabled Hot reloading ✅
 - Enabled Live Reloading ✅
+- **Jest** and **Enzyme** for testing
+- Included new [Enzyme Adapter](https://www.npmjs.com/package/@wojtekmaj/enzyme-adapter-react-17) for **React 17**
 
 ## Frameworks
 
