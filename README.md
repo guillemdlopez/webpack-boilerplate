@@ -17,6 +17,7 @@ It includes the following stack:
 - **Babel**: with react presets and es2015.
 - **ESLint** (with _Prettier_ extension): ESLint is only reserved for quality-code purposes, while Prettier is in charge of the style and the formatting of the code.👌🏽✨
 - Enabled Hot reloading ✅
+- Enabled Live Reloading ✅
 
 ## Frameworks
 
