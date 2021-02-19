@@ -63,7 +63,7 @@ To check out for quality-code 👌🏽
 npm run lint
 ```
 
-To deploy to github-pages (first change the `homepage` property of the `package.json` file)
+To deploy to github-pages
 
 ```bash
 npm run deploy
