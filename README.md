@@ -14,8 +14,8 @@
 It includes the following stack:
 
 - **Webpack 5**: with .js and .jsx file extensions.
-- **Babel**: with react presets and es2015.
-- **ESLint** (with _Prettier_ extension): ESLint is only reserved for quality-code purposes, while Prettier is in charge of the style and the formatting of the code.👌🏽✨
+- **Babel**: with react presets (runtime set to automatic), es2015 and core-js to enable polyfills.
+- **ESLint**: with [Prettier](https://prettier.io/) and [React Plugin](https://www.npmjs.com/package/eslint-plugin-react) extensions. ESLint is only reserved for quality-code purposes, while Prettier is in charge of the style and the formatting of the code.👌🏽✨
 - Enabled Hot reloading ✅
 - Enabled Live Reloading ✅
 - **Jest** and **Enzyme** for testing 🧐
@@ -121,6 +121,18 @@ npm install
 code . # Open on Visual Studio Code
 ```
 
+<details><summary>Do you prefer yarn?</summary><p>
+
+```bash
+git clone git@github.com:guillemdlopez/webpack-boilerplate.git frontend-project
+cd frontend-project
+rm -rf .git
+yarn install
+code . # Open on Visual Studio Code
+```
+
+</p></details>
+
 ### Open on Sublime Text
 
 ```bash
@@ -130,6 +142,18 @@ rm -rf .git
 npm install
 stt # Open on Sublime Text
 ```
+
+<details><summary>Do you prefer yarn?</summary><p>
+
+```bash
+git clone git@github.com:guillemdlopez/webpack-boilerplate.git frontend-project
+cd frontend-project
+rm -rf .git
+yarn install
+stt # Open on Visual Studio Code
+```
+
+</p></details>
 
 ## About me
 
