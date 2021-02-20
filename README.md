@@ -83,22 +83,26 @@ npm run deploy
 |   |
 |   |-- style
 |   |  |-- images
-|   |  |-- stylesheets
-|   |     |
-|   |     |-- components
-|   |     |   |__ index.scss
-|   |     |-- _variables.scss
-|   |     |__ index.scss
-|   |  |-- tests
+|   |  |__ stylesheets
 |   |  |  |
-|   |  |  |-- snapshots
-|   |  |  |__ App.test.jsx
+|   |  |  |-- components
+|   |  |  |   |__ index.scss
+|   |  |  |-- _variables.scss
+|   |  |  |__ index.scss
+|   |  |
+|   |  |__ tests
+|   |     |
+|   |     |-- snapshots
+|   |     |__ App.test.jsx
 |   |
-|   |__ index.js
+|   |-- index.js
+|   |__ setupTests.js
 |
 |-- .eslintrc.json
 |-- .gitignore
 |-- .pretierrc
+|-- babel.config.js
+|-- jest.config.js
 |-- package-lock.json
 |-- package.json
 |-- README.md
