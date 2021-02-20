@@ -9,7 +9,7 @@
     "test": "jest --watchAll",
     "test-coverage": "jest --coverage",
     "clean": "rm -rf coverage dist",
-    "lint": "eslint './src/**/*.js*'",
+    "lint": "eslint './src/**/**/*.js*'",
     "deploy": "webpack --mode production && gh-pages -d dist"
   },
   "author": "Guillem Delás",
