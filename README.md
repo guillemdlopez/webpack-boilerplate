@@ -83,7 +83,7 @@ npm run deploy
 |   |
 |   |-- style
 |   |  |-- images
-|   |  |__ stylesheets
+|   |  |-- stylesheets
 |   |  |  |
 |   |  |  |-- components
 |   |  |  |   |__ index.scss
