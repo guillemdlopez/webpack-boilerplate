@@ -18,16 +18,9 @@
     "no-debugger": "off",
     "no-sparse-arrays": 1,
     "no-use-before-define": 2,
-    "no-var": "error"
+    "no-var": "error",
+    "react/react-in-jsx-scope": "off"
   },
-  "overrides": [
-    {
-      "files": ["*.js*"],
-      "rules": {
-        "react/react-in-jsx-scope": "off"
-      }
-    }
-  ],
   "settings": {
     "react": {
       "version": "detect"
