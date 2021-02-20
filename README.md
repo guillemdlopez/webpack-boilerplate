@@ -83,12 +83,16 @@ npm run deploy
 |   |
 |   |-- style
 |   |  |-- images
-|   |  |__ stylesheets
+|   |  |-- stylesheets
 |   |     |
 |   |     |-- components
 |   |     |   |__ index.scss
 |   |     |-- _variables.scss
 |   |     |__ index.scss
+|   |  |-- tests
+|   |  |  |
+|   |  |  |-- snapshots
+|   |  |  |__ App.test.jsx
 |   |
 |   |__ index.js
 |

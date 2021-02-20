@@ -10,7 +10,7 @@
     "test-coverage": "jest --coverage",
     "clean": "rm -rf coverage dist",
     "lint": "eslint './src/**/*.js*'",
-    "deploy": "webpack && gh-pages -d dist"
+    "deploy": "webpack --mode production && gh-pages -d dist"
   },
   "author": "Guillem Delás",
   "license": "ISC",
