@@ -150,7 +150,7 @@ git clone git@github.com:guillemdlopez/webpack-boilerplate.git frontend-project
 cd frontend-project
 rm -rf .git
 yarn install
-stt # Open on Visual Studio Code
+stt # Open on Sublime Text
 ```
 
 </p></details>
