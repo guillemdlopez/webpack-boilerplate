@@ -33,16 +33,16 @@ To start the local Web Dev Server (usually on port `8080`) ▶️
 npm start
 ```
 
+To run the tests 🧐
+
+```bash
+npm test
+```
+
 To build the app 👷🏽🚧
 
 ```bash
 npm run build
-```
-
-To run the tests 🧐
-
-```bash
-npm run test
 ```
 
 To check the coverage of your test suites. 💯

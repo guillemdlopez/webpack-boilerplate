@@ -13,14 +13,10 @@ exports[`Testing the <App /> component should render correctly 1`] = `
   >
     Hello World!
   </h1>
-  <div
-    id="smiley"
-  >
-    <img
-      alt="smiley"
-      id="smiley-img"
-      src={null}
-    />
-  </div>
+  <img
+    alt="smiley"
+    id="smiley-img"
+    src={null}
+  />
 </div>
 `;
