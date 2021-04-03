@@ -10,8 +10,8 @@ module.exports = {
     'postcss-responsive-type': true,
     'postcss-discard-comments': true,
     '@fullhuman/postcss-purgecss': {
-      content: ['./**/*.html'],
-      css: ['./src/stylesheets/*.*css'],
+      content: ['./publich/index.html'],
+      css: ['./src/stylesheets/**/*.*css'],
     },
     autoprefixer: true,
   },
