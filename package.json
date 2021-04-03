@@ -45,6 +45,7 @@
     "postcss-discard-comments": "^4.0.2",
     "postcss-import": "^14.0.1",
     "postcss-loader": "^5.2.0",
+    "postcss-nested": "^5.0.5",
     "postcss-preset-env": "^6.7.0",
     "postcss-responsive-type": "^1.0.0",
     "postcss-safe-parser": "^5.0.2",
