@@ -10,6 +10,7 @@
         "severity": "warning",
         "message": "The line before the comment should be empty!"
       }
-    ]
+    ],
+    "reportNeedlessDisables": true
   }
 }
