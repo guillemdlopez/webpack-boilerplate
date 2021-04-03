@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "length-zero-no-unit": null,
+    "comment-empty-line-before": [
+      "always",
+      {
+        "ignore": ["stylelint-commands", "after-comment"],
+        "except": ["first-nested"],
+        "severity": "warning",
+        "message": "The line before the comment should be empty!"
+      }
+    ]
+  }
+}
