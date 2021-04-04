@@ -1,7 +1,10 @@
 {
-  "extends": "stylelint-config-standard",
+  "extends": ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
   "rules": {
     "length-zero-no-unit": null,
+    "color-named": "always-where-possible",
+    "scss/at-import-partial-extension-blacklist": null,
+    "selector-max-id": 2,
     "comment-empty-line-before": [
       "always",
       {
@@ -10,7 +13,6 @@
         "severity": "warning",
         "message": "The line before the comment should be empty!"
       }
-    ],
-    "reportNeedlessDisables": true
+    ]
   }
 }
