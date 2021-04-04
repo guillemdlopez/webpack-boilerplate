@@ -14,5 +14,6 @@
         "message": "The line before the comment should be empty!"
       }
     ]
-  }
+  },
+  "ignoreFiles": ["./dist/*.css"]
 }
