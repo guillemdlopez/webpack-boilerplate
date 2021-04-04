@@ -25,7 +25,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.s?css$/i,
+        test: /\.p?css$/i,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -33,6 +33,16 @@ module.exports = {
           },
           'css-loader',
           'postcss-loader',
+        ],
+      },
+      {
+        test: /\.scss$/i,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: { publicPath: '' },
+          },
+          'css-loader',
           'sass-loader',
         ],
       },

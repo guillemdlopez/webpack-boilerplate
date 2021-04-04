@@ -1,6 +1,4 @@
 module.exports = {
-  syntax: 'postcss-scss',
-  parser: 'postcss-safe-parser',
   plugins: {
     'postcss-import': true,
     'postcss-preset-env': {
