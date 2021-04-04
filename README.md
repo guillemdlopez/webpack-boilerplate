@@ -69,7 +69,7 @@ To check out for quality-code on the stylesheets
 npm run style:lint
 ```
 
-To fix all the style violations on the stylesheets
+To fix all the style violations on the stylesheets 🔨🧑🏽‍🔧👨🏼‍🔧
 
 ```bash
 npm run style:fix
