@@ -63,6 +63,18 @@ To check out for quality-code 👌🏽
 npm run lint
 ```
 
+To check out for quality-code on the stylesheets
+
+```bash
+npm run style:lint
+```
+
+To fix all the style violations on the stylesheets
+
+```bash
+npm run style:fix
+```
+
 To deploy it to github-pages
 
 ```bash
