@@ -4,6 +4,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
+const PATHS = {
+  src: path.join(__dirname, 'src'),
+};
+
 const plugins = [
   new CleanWebpackPlugin(),
   new MiniCssExtractPlugin(),
@@ -25,7 +29,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.p?css$/i,
+        test: /\.s?css$/i,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -33,16 +37,6 @@ module.exports = {
           },
           'css-loader',
           'postcss-loader',
-        ],
-      },
-      {
-        test: /\.scss$/i,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: { publicPath: '' },
-          },
-          'css-loader',
           'sass-loader',
         ],
       },

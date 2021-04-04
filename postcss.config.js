@@ -1,4 +1,6 @@
 module.exports = {
+  syntax: 'postcss-scss',
+  parser: 'postcss-safe-parser',
   plugins: {
     'postcss-import': true,
     'postcss-preset-env': {
@@ -7,10 +9,6 @@ module.exports = {
     'postcss-nested': true,
     'postcss-responsive-type': true,
     'postcss-discard-comments': true,
-    '@fullhuman/postcss-purgecss': {
-      content: ['./publich/index.html'],
-      css: ['./src/stylesheets/**/*.*css'],
-    },
     autoprefixer: true,
   },
 };
