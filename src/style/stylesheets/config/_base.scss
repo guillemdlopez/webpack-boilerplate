@@ -1,7 +1,10 @@
+* {
+  font-family: var(--font-family);
+}
+
 body {
   background-color: $bg;
   margin: 0px;
-  font-family: var(--font-family);
   margin-bottom: 40px;
 }
 

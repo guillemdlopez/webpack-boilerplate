@@ -5,7 +5,6 @@ const App = () => {
     <div className="container">
       <h1 style={{ textAlign: 'center' }}>Hello World!</h1>
       <img src={smiley} id="smiley-img" alt="smiley" />
-      <p>hola</p>
     </div>
   );
 };

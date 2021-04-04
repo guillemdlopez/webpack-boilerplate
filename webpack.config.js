@@ -4,9 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
-const PATHS = {
-  src: path.join(__dirname, 'src'),
-};
+const target = process.env.NODE_ENV !== 'production' ? 'web' : 'browserslist';
 
 const plugins = [
   new CleanWebpackPlugin(),
@@ -22,6 +20,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = {
   entry: './src/index.js',
+  target,
   output: {
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: 'images/[hash][ext][query]',
