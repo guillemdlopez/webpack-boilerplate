@@ -3,4 +3,4 @@ import App from './javascript/App';
 
 import './style/stylesheets/index.scss';
 
-render(<App />, document.getElementById('container'));
+render(<App />, document.getElementById('root'));
