@@ -8,6 +8,11 @@ body {
   margin-bottom: 40px;
 }
 
+h1 {
+  /* responsive font (postcss-responsive-type) */
+  font-size: responsive 24px 46px;
+}
+
 .container {
   margin: 0 auto;
   text-align: center;
