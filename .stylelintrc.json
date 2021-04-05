@@ -1,5 +1,6 @@
 {
   "extends": ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
+  "plugins": ["stylelint-use-logical-spec"],
   "rules": {
     "length-zero-no-unit": null,
     "color-named": "always-where-possible",
@@ -13,7 +14,8 @@
         "severity": "warning",
         "message": "The line before the comment should be empty!"
       }
-    ]
+    ],
+    "liberty/use-logical-spec": true
   },
   "ignoreFiles": ["./dist/*.css"]
 }

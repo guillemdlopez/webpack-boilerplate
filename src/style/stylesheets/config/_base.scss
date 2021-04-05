@@ -5,7 +5,7 @@
 body {
   background-color: $bg;
   margin: 0px;
-  margin-bottom: 40px;
+  margin-block-end: 40px;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 }
 
 .container {
+  inline-size: $container-width;
   margin: 0 auto;
   text-align: center;
-  width: $container-width;
 }
