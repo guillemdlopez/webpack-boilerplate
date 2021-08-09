@@ -1,11 +1,14 @@
+@use './settings';
+
 * {
   font-family: var(--font-family);
 }
 
 body {
-  background-color: $bg;
-  margin: 0px;
+  background-color: settings.$bg;
+  margin: 0;
   margin-block-end: 40px;
+  padding: 0;
 }
 
 h1 {
@@ -14,7 +17,7 @@ h1 {
 }
 
 .container {
-  inline-size: $container-width;
+  inline-size: settings.$container-width;
   margin: 0 auto;
   text-align: center;
 }
