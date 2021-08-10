@@ -21,9 +21,13 @@ It includes the following stack:
 - **Jest** and **Enzyme** for testing 🧐
 - Included new [Enzyme Adapter](https://www.npmjs.com/package/@wojtekmaj/enzyme-adapter-react-17) for **React 17**
 
+[Contents](#frontend-boilerplate-🎨-👩🏽‍🎨-👨🏾‍🎨)
+
 ## Frameworks
 
 This boilerplate includes **React** ⚛️
+
+[Contents](#frontend-boilerplate-🎨-👩🏽‍🎨-👨🏾‍🎨)
 
 ## Scripts
 
@@ -87,6 +91,8 @@ To deploy it to github-pages
 npm run deploy
 ```
 
+[Contents](#frontend-boilerplate-🎨-👩🏽‍🎨-👨🏾‍🎨)
+
 ## Folder tree
 
 ```
@@ -126,6 +132,8 @@ npm run deploy
 |-- README.md
 |__ webpack.config.js
 ```
+
+[Contents](#frontend-boilerplate-🎨-👩🏽‍🎨-👨🏾‍🎨)
 
 ## Start
 
@@ -173,6 +181,8 @@ stt # Open on Sublime Text
 
 </p></details>
 
+[Contents](#frontend-boilerplate-🎨-👩🏽‍🎨-👨🏾‍🎨)
+
 ## About me
 
 Hi!🙋🏽‍♂️ My name is [Guillem Delás](http://linkedin.com/in/guillemdelas) and I am a Fullstack Developer based in Barcelona. Please make sure to check out my [Portfolio](https://guillemdlopez.github.io/portfolio).
@@ -181,3 +191,5 @@ You can also check out some **Projects** that I made or I am currently working o
 
 1. [Flatify](http://flatify.club): please **make sure to inspect and activate mobile screen mode**.
 2. [Games Master](http://games-master.herokuapp.com)
+
+[Contents](#frontend-boilerplate-🎨-👩🏽‍🎨-👨🏾‍🎨)
