@@ -57,7 +57,7 @@ To delete the dist and coverage folders 🧼
 npm run clean
 ```
 
-To check out for quality-code 👌🏽
+To check the quality of the code 👌🏽
 
 ```bash
 npm run lint
@@ -69,7 +69,7 @@ To fix all the eslint errors 🔨🧑🏽‍🔧👨🏼‍🔧
 npm run lint:fix
 ```
 
-To check out for quality-code on the stylesheets 💯
+To check the quality of the code on the stylesheets 💯
 
 ```bash
 npm run style:lint
