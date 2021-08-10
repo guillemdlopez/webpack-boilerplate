@@ -63,7 +63,13 @@ To check out for quality-code 👌🏽
 npm run lint
 ```
 
-To check out for quality-code on the stylesheets
+To fix all the eslint errors 🔨🧑🏽‍🔧👨🏼‍🔧
+
+```bash
+npm run lint:fix
+```
+
+To check out for quality-code on the stylesheets 💯
 
 ```bash
 npm run style:lint
