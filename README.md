@@ -4,10 +4,10 @@
 
 - [Tooling 🧑🏽‍💻](#tooling)
 - [Frameworks](#frameworks)
-- [Scripts](#scripts)
+- [Scripts 🎬](#scripts)
 - [Folder Tree 🗂](#folder-tree)
 - [Let's Start ▶️](#start)
-- [About Me](#about-me)
+- [About Me 🙋🏽‍♂️](#about-me)
 
 ## Tooling
 
