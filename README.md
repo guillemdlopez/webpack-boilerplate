@@ -1,13 +1,13 @@
-# Frontend Boilerplate 🎨 👩🏽‍🎨 👨🏾‍🎨
+# Frontend Boilerplate
 
-> Frontend Boilerplate to start running a Frontend project.
+> Frontend Boilerplate to start running a Frontend project 🎨 👩🏽‍🎨 👨🏾‍🎨
 
 - [Tooling 🧑🏽‍💻](#tooling)
 - [Frameworks](#frameworks)
-- [Scripts](#scripts)
+- [Scripts 🎬](#scripts)
 - [Folder Tree 🗂](#folder-tree)
 - [Let's Start ▶️](#start)
-- [About Me](#about-me)
+- [About Me 🙋🏽‍♂️](#about-me)
 
 ## Tooling
 
@@ -21,9 +21,13 @@ It includes the following stack:
 - **Jest** and **Enzyme** for testing 🧐
 - Included new [Enzyme Adapter](https://www.npmjs.com/package/@wojtekmaj/enzyme-adapter-react-17) for **React 17**
 
+[Contents](#frontend-boilerplate)
+
 ## Frameworks
 
 This boilerplate includes **React** ⚛️
+
+[Contents](#frontend-boilerplate)
 
 ## Scripts
 
@@ -57,13 +61,19 @@ To delete the dist and coverage folders 🧼
 npm run clean
 ```
 
-To check out for quality-code 👌🏽
+To check the quality of the code 👌🏽
 
 ```bash
 npm run lint
 ```
 
-To check out for quality-code on the stylesheets
+To fix all the eslint errors 🔨🧑🏽‍🔧👨🏼‍🔧
+
+```bash
+npm run lint:fix
+```
+
+To check the quality of the code on the stylesheets 💯
 
 ```bash
 npm run style:lint
@@ -80,6 +90,8 @@ To deploy it to github-pages
 ```bash
 npm run deploy
 ```
+
+[Contents](#frontend-boilerplate)
 
 ## Folder tree
 
@@ -120,6 +132,8 @@ npm run deploy
 |-- README.md
 |__ webpack.config.js
 ```
+
+[Contents](#frontend-boilerplate)
 
 ## Start
 
@@ -167,6 +181,8 @@ stt # Open on Sublime Text
 
 </p></details>
 
+[Contents](#frontend-boilerplate)
+
 ## About me
 
 Hi!🙋🏽‍♂️ My name is [Guillem Delás](http://linkedin.com/in/guillemdelas) and I am a Fullstack Developer based in Barcelona. Please make sure to check out my [Portfolio](https://guillemdlopez.github.io/portfolio).
@@ -175,3 +191,5 @@ You can also check out some **Projects** that I made or I am currently working o
 
 1. [Flatify](http://flatify.club): please **make sure to inspect and activate mobile screen mode**.
 2. [Games Master](http://games-master.herokuapp.com)
+
+[Contents](#frontend-boilerplate)

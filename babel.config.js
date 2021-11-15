@@ -6,7 +6,7 @@ if (process.env.NODE_ENV === 'development') {
 
 module.exports = {
   presets: [
-    ['@babel/preset-env', { useBuiltIns: 'usage', corejs: '3.9' }],
+    ['@babel/preset-env', { useBuiltIns: 'usage', corejs: '3.16' }],
     ['@babel/preset-react', { runtime: 'automatic' }],
   ],
   plugins,

@@ -5,7 +5,7 @@
   },
   "extends": [
     "eslint:recommended",
-    "prettier",
+    "plugin:prettier/recommended",
     "prettier/react",
     "plugin:react/recommended"
   ],
